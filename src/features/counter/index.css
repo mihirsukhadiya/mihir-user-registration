@@ -1,0 +1,149 @@
+.mainContainer {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+.contentDiv {
+  max-width: 1500px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.mainPersonDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 768px) {
+  .images {
+    width: 350px;
+  }
+}
+@media screen and (min-device-width: 1300px) {
+  .mainCard {
+    width: 270px;
+    height: 270px;
+  }
+  .mainDivCard {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1299px) {
+  .mainDivCard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.mainDivCard {
+  gap: 1rem;
+  display: grid;
+}
+.mainCard {
+  width: 270px;
+  cursor: pointer;
+  height: 270px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  color: black;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+}
+.circleClass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  border-radius: 100%;
+  background-color: white;
+  color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formGroup {
+  display: flex;
+  margin-bottom: 20px;
+}
+.labelForm {
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+.inputValue{
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+.authorizationGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authMainCard {
+  width: 270px;
+  height: 270px;
+  background-color: #eee;
+  border-radius: 30px;
+  color: black;
+  padding: 15px;
+}
+.selectGroup{
+  padding: 7px 12px;
+  border-radius: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.formGroupForCheckbox {
+  display: flex;
+  flex-direction: column;
+}
+li label{
+  cursor: pointer;
+}
+li input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.buttonGroup {
+  margin-top: 20px;
+  width: 100%;
+}
+.allButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons {
+  background-color: #eee;
+  border-radius: 8px;
+  border-width: 0;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 15px 22px;
+}
+select {
+  cursor: pointer;
+}
+.imageDiv2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
